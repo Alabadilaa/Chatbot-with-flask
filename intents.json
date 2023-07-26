@@ -1,0 +1,61 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "Bonjour", "Hi", "Hey",
+                "Salut", "Yo", "Bonsoir"
+            ],
+            "responses": [
+                "Bonjour, je suis le chatbot X!",
+                "Salut! En quoi puis-je vous aider?",
+                "Bonjour!",
+                "Bonjour! Je suis le chatbot X et je suis là pour vous aider!"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Au revoir", "A plus", "Bye",
+                "A bientôt", "A plus tard", "Ciao"
+            ],
+            "responses": [
+                "A une prochaine fois !", "Ciao !",
+                "A bientôt !", "A très bientôt !"
+            ]
+        },
+        {
+            "tag": "renseignement",
+            "patterns": [
+                "Renseignements", "Infos", "Ecole", "Université"
+            ],
+            "responses": [
+                "Bien sûr, voici quelques renseignements sur notre école :",
+                "Nos services et activités sont disponibles dans notre école. Voici des renseignements importants :",
+                "Vous cherchez des renseignements sur notre université ? Voici tout ce que vous devez savoir :"
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "Contact", "Coordonnées", "Adresse", "Téléphone", "Email"
+            ],
+            "responses": [
+                "Voici nos coordonnées de contact :",
+                "Vous pouvez nous joindre par téléphone au XXX-XXXX ou par e-mail à contact@universite.com",
+                "Si vous souhaitez nous contacter, voici notre adresse et numéro de téléphone :"
+            ]
+        },
+        {
+            "tag": "inscription",
+            "patterns": [
+                "Inscription", "Candidature", "S'inscrire", "Postuler"
+            ],
+            "responses": [
+                "Pour vous inscrire à notre école, veuillez suivre les étapes suivantes :",
+                "Si vous êtes intéressé par l'inscription, voici comment postuler :",
+                "Vous pouvez commencer votre candidature en remplissant notre formulaire en ligne :"
+            ]
+        }
+    ]
+}
